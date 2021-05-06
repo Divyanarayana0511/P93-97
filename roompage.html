@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <title>Room Page</title>
+</head>
+
+<body onload="getname()" >
+    <div class="container" id="logoutbtn">
+        <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger d-flex justify-content-end" onclick="logout()">Logout</button>
+    </div>
+    <div class="container">
+        <center>
+            <h1>Welcome <span id="getname"></span> !</h1><img src="https://www.voicesofyouth.org/sites/voy/files/images/2019-03/school.jpg" height="200px;" width="200px;">
+            <h4 id="output" style="text-align: left;margin-bottom: 70px;"></h4>
+            <br> </center>
+    </div>
+    <div class="border border-dark">
+        <center onload="getData()">
+            <input placeholder=" Enter Room name to begin " class="form-control" id="roomname">
+            <br>
+            <button class="btn btn-success" onclick="addroom()">Add Room</button>
+        </center>
+    </div>
+</body>
+<link rel="stylesheet " href="loginpage.css ">
+<script src="roompage.js "></script>
+
+</html>

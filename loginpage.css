@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+#welcome {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://st.depositphotos.com/1032577/4812/i/950/depositphotos_48129893-stock-photo-frame-with-daisies-and-lettering.jpg");
+    height: 200px;
+    width: auto;
+    background-size: contain;
+}
+
+#logincontent {
+    text-align: center;
+    background-color: cornsilk;
+    height: 100px;
+}
+
+#adduserbttuon {
+    margin: 20px;
+}
+
+#logout {
+    float: right;
+}
+.roomname{
+    color: white;
+    font-size: 20px;
+}
+img{
+    height:20px;
+}
+#msgicon{
+    height:50px;
+}
+#schoolimg{
+    height: 100px;
+}
